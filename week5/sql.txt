@@ -1,0 +1,4 @@
+create database mydb;
+use mydb;
+create table users( user_id int NOT NULL PRIMARY KEY, name varchar(225));
+desc users;
